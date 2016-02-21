@@ -1,0 +1,31 @@
+.racer_table1 td {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+}
+
+#row1 td.active {
+	background-image:url(pics/sonic.gif);
+
+}
+
+#row2 td.active {
+	background-image:url(pics/tails.gif);
+
+}
+#finish {
+	background-image: url(pics/check.jpg);
+}
+h2 {
+	width: 65%;
+	margin: auto;
+}
+
+h3{
+	width: 20%;
+	margin: auto;
+}
+h4 {
+	width: 20%;
+	margin: auto;
+}
