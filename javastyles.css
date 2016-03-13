@@ -1,15 +1,43 @@
+html {
+	background-color: #87ceeb ;
+}
+header {
+	margin-bottom: 30px;
+}
 .racer_table1 td {
-	background-color: white;
+	background-image:url(pics/ground.jpg);
 	height: 100px;
 	width: 100px;
+	margin-left: 100px;
 }
 
 #row1 td.active {
+	background-color: red;
 	background-image:url(pics/sonic.gif);
 
+
+}
+.row {
+	display: flex;
+	width: 75%;
+	margin: auto;
+
+}
+button {
+	width: 200px;
+	background-color: pink;
+}
+#shoe-select1 {
+	margin-bottom: 100px;
+	width: 50%;
+}
+#shoe-select2 {
+	margin-bottom: 100px;
+	width: 50%;
 }
 
 #row2 td.active {
+	background-color: blue;
 	background-image:url(pics/tails.gif);
 
 }
